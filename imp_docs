@@ -1,0 +1,222 @@
+PAYUI/PY79----Sid@8318022437
+ysql user password reset :- SET PASSWORD FOR 'teamqc/username'@'%/host' = PASSWORD('teamqc@987'/new password);
+
+Start Tomacat : ps -ef|grep tomcat ...........   /usr/local/tomcat/bin ./catilina.sh start
+
+Kafka Restart : go this file /var/log/kafka/SDKEvent-0
+
+Network Restart : cd /etc/init.d/network restart
+
+LVM Extend : lvextend -L +10G /dev/mapper/myvol/user           
+
+find . -mtime +3 -print -exec gzip {} \;    ------------------find string-----------------------    https://github.com/siddharth912/jenkins.test.git
+awk '{ if ($5 > "75%") print $0; }' sid.txt
+
+Unlock account: pam_tally2 --user=payunoc --reset
+
+                                           [[  find / -type f -iname httpd.conf ]] -- Dcom.sun.management.jmxremote.rmi.port=8989 & -Djava.rmi.server.port=1099
+Jammu@12345-----rahul.kumar
+Dv42113tu@#t1t  | nail -s "Filebeat is not running on $IP" alerting@payu.in , deep.karan@payu.in----{{ simple devops project-1 }}   github-- siddharth912 -- 83180Dec
+jukebox@987    172.16.11.15/17/21/18
+	   Kredi#9865@               ------------------ 10.225.5.99 -TripMora#123---------10.100.66.30----techpayu@1234
+Pillar@12345
+======================================= [ MySQL ]==================================================================================================
+password reset:
+
+select user,host from mysql.user where user like 'megha%';    atul: 10.50.31.199
+show grants for 'megha.malhotra'@'10.50.7.132';
+GRANT USAGE ON *.* TO 'megha.malhotra'@'10.50.7.132' IDENTIFIED BY 'Megha#123#@';
+---------------------------------------------------------------------------------
+user grant:
+
+select user,host from mysql.user where user  like 'pra%';
+grant usage on *.* to 'prateek.varshney'@'10.50.7.174' identified by 'Prateek@123#';
+GRANT SELECT ON `payu`.* TO 'prateek.varshney'@'10.50.7.174';
+flush privileges;
+\q
+------------------------------------------------------------------------------------
+MySQL export & import, dump, drop                         15563320191217
+
+export: mysqldump -u username -p database_name > data-dump.sql
+import: mysql -u username -p database_name < data-dump.sql
+drop: drop database db_name;
+create: creat database database_name;
+
+DELETE FROM mysql.user WHERE  user = 'yogesh.pandey' AND host = '10.50.9.90'; 
+DELETE FROM mysql.db WHERE  user = 'yogesh.pandey' AND host = '10.50.9.90';
+=======================================[ mail server ]====================================================================
+10.50.3.140
+vim /etc/postfix/main.cf
+[add the rclient ip/32]
+/etc/init.d/postfix reload
+
+then login client and add a line in /etc/mail.rc    ----- 10.100.65.100 gurgaon
+[ set smtp=10.50.3.140 ]
+
+======================================[ command when you granted db access but user not able to even show DB ]======================================
+
+GRANT SHOW DATABASES ON *.* TO $username_here
+
+========================================[tomcat restart]==============================================
+tomcat  restart
+ps ef |grep tomcat
+
+kill -9 process id
+
+/usr/local/tomcat/bin/catalina.sh start
+====================================[lag in 172.31.2.75]==============================================
+if lag in 172.31.2.75:  
+
+Step to check status of 172.31.2.75
+Login- 10.50.12.19
+ssh -p3108 payuadmin@172.31.2.75
+Pasword- bu-U&pbX(W4L
+/opt/mysql/bin/mysql -u admin -ptiger -S /data/mysql-data/mysql.sock
+
+
+==================================[docker full]====================================================
+for docker 10.100.65.87 and 89
+
+ /var/lib/docker/overlay/
+error .log/kafka/SDKEvent-0
+=============================[full without any comsuption]=========================
+  file is full but log not show:
+cd /var  rsyslog restart
+
+/etc/init.d/filebeat restart
+
+/etc/init.d/filebeat status
+ossec
+
+=============================[TAR file]=============================================
+tar -czvf (name-of-archive.tar.gz....the name should be saved.tar.gz) /path/to/directory-or-file
+
+tar -czvf archive.tar.gz stuff
+
+and untar
+tar -xzvf
+==================================[disc increasing]==============================
+increase size
+lvextend -L +5G /dev/mapper/myvol-usr
+xfs_growfs /dev/mapper/myvol-usr
+
+&
+lvextend -L+20G /dev/var
+resize_reiserfs /dev/var
+=======================================[DI bank time out]==================================
+Di checking command.. on 10.200.29.24 /25 /6 /9
+
+cat /usr/local/payupgswitch/cfg/deploy/50_deploy_sbi/10_sbi_channel.xml
+
+=============================================={domain join / error}=============================================
+[domain join]...
+
+domainjoin-cli join edc.payumum.com sunny Haklu@123
+/opt/pbis/bin/config --file /etc/pbis/lwconfig.conf
+
+
+[error].....
+
+rpm --import http://repo.pbis.beyondtrust.com/yum/RPM-GPG-KEY-pbis
+wget -O /etc/yum.repos.d/pbiso.repo http://repo.pbis.beyondtrust.com/yum/pbiso.repo
+yum clean all
+yum install pbis-open
+
+Please verify domain join if any error coming during domain joining kindly remove pbis package and reinstall it
+if repo for pbis is not present there then Please get repo from above command and then install it.
+
+=================================================[NM net proxy]=======================================================
+when internet is not working....
+
+export https_proxy=http://10.50.8.11:3128
+export http_proxy=http://10.50.8.11:3128                    
+
+==================================================[Redmine down]=====================================================
+Redmine:
+
+ IP=52.74.83.176
+User=akash.raj
+password=akash@1098
+ps -ef |grep ruby
+kill the pid
+
+1. cd /opt/scripts
+2. sh restart-redmine.sh
+Still redmine alert is coming again and again in pingdom, please restart other redmine applications as well.
+1. cd /opt/scripts
+2. sh restart-onboard.sh
+3. sh restart-mumredmine.sh
+4. sh restart-puneredmine.sh
+==========================< for 10.50.12.15 whey book delay >==========================================================
+mysql -h localhost -u payunoc -pnocpayu@123  -e 'use oAuth2;SELECT createdate FROM WhebookNotification ORDER BY notificationId DESC LIMIT 1;'|awk 'FNR ==2{Print}'|awk '{print $2};
+
+==========================< crontab -l...sh -x , whey book delay, external , internal issue >=======================================
+
+=========================< Pub Sub down >====================================================================
+#cd
+
+/usr/local/apache2/htdocs/pubSubPayuMoney/current
+
+#nohup java -Dserver.port=9900  -jar /usr/local/apache2/htdocs/pubSubPayuMoney/current/pubSubPayuMoney-0.0.1-SNAPSHOT.jar consumer=true &
+
+====================< when 9092 goes down on 172.16.12.195/196/197 >=================================================
+
+
+cd /usr/local/kafka_2.11-1.0.0
+
+nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+ 
+nohup bin/kafka-server-start.sh config/server.properties &
+.......
+phele zookeper chalana hai fir server jab down jaye phele ps -ef | grep kafka kr k dekhna kon sa chal ra hai agar zookeper chal ra hai to sirf server.properies wala chalana hai
+
+==============================< Command to Truncate container log >==========================================================
+
+echo "" > $(docker inspect --format='{{.LogPath}}' <container_name_or_id>
+=============================< For xml logs >=================================================
+1)login to 172.16.12.44
+2)mysql -u payunoc -p
+ 
+3)show databases;
+ 
+4)use payu_switch;
+ 
+5)SELECT * FROM mobile_data_request where txnid in(200110005180829227201075);
+   note :-   edit payuid
+   SELECT * FROM mobile_data_request where txnid in(200110005180829227402515);  
+
+6)check on all aws DI servers
+7)cd /usr/local/payupgswitch/log/q2/
+8)ls -lhrt
+9) cat/bzcat q2-2017-07-04-*.log.bz2 | grep -C 70 030008139489
+di server 10.200.29.9/10.200.29.25/10.200.29.10
+============================================kafka logs not changing position 10.200.6.238===================================================
+login to 10.200.7.45 ps -ef |grep maxwell
+kill it
+crontab -l ------> cat start.sh ..... go to the cd /path and run nohup command
+===========================================================================================================================================
+
+CDD scan job 10.50.3.46-------  Project PCI_Payu_PayuMoney_Card_Data_Discovery--------------------
+
+============================================[ Hadoop ]===================================================  unisouce_user ---- lolipop
+10.50.14.85  -- 8080
+Login as root user
+
+cd /home/varun.singhal/presto-server-0.196/bin
+nohup ./launcher run &
+====================================================[ IVR ]=====================================================
+username: ivruser
+alias: V2yqBC
+password: laptop123
+==============================================[ GIT ]===================================================================
+git config --global user.name
+git config --global user.email
+git init
+git add <fileName>      & if modified file.. use "   git dif  " and then git commit -m " messege "
+git commit -m "some messege"
+git log & git log --stat
+git remote add origin <Repo URL>
+git push -u origin master
+==========================================================================================================================
+Dv42113tu@#t1t --- linuxops
+
